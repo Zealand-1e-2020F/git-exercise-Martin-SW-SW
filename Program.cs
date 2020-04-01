@@ -6,9 +6,9 @@ namespace GitExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            myClass myclass1 = new myClass("Test1", "test2", 123);
 
-            myClass myclass = new myClass();
+            Console.WriteLine(myclass1.ToString());
             
 
 
